@@ -1,0 +1,13 @@
+name = "Quest"
+uuid = "1392478b-a408-477f-96c5-4a13bae6b672"
+authors = ["Andrew Ellis <andrewellis@pm.me> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
